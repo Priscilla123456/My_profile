@@ -1,0 +1,317 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+nav {
+  display: flex;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 12px;
+  background-color: white;
+  border-bottom: 1px solid #d8d8d8;
+  padding: 20px;
+  justify-content: center;
+}
+
+nav a {
+  color: black;
+}
+
+nav a:hover {
+  color: orange;
+  font-weight: bold;
+}
+
+nav ul {
+  display: flex;
+  align-content: center;
+}
+
+nav li {
+  margin: 0px 30px;
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  background-color: black;
+  color: #d8d8d8;
+  padding: 20px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 12px;
+}
+
+footer a {
+  color: orange;
+}
+/* Global styles ends here */
+
+/* Styles for index.html */
+
+body {
+  background-color: #f1f1f1;
+}
+
+.my-info {
+  align-content: center;
+  padding: 1px;
+  display: flex;
+  align-items: center;
+  max-width: 80%;
+  margin: 10px auto;
+  background-color: #ffffff;
+}
+
+.my-info h1 {
+  text-align: center;
+  margin: 25px;
+  font-family: Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.my-info img {
+  width: 350px;
+  height: auto;
+  margin: auto;
+  object-fit: contain;
+}
+
+.img-styling {
+  margin: auto;
+  /* width: 50%; */
+}
+
+.my-info p {
+  max-width: 70%;
+  overflow: auto;
+  margin: auto;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 14px;
+}
+
+.my-list {
+  padding: 20px 0;
+  display: flex;
+  max-width: 80%;
+  margin: 10px auto;
+  background-color: #ffffff;
+  justify-content: space-evenly;
+}
+
+.hobbies {
+  padding: 0px 80px;
+}
+
+.hobbies ul {
+  padding: 12px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 12px;
+}
+
+.hobbies h2 {
+  font-family: Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.pr {
+  border-left: 1px solid black;
+  border-right: 1px solid black;
+  padding: 0px 80px;
+}
+
+.pr h2 {
+  font-family: Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.pr ul {
+  padding: 12px;
+  font-size: 12px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.skills {
+  padding: 0px 80px;
+}
+
+.skills ul {
+  padding: 12px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 12px;
+}
+
+.skills h2 {
+  font-family: Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.grey-button {
+  padding: 20px 0;
+  display: flex;
+  max-width: 80%;
+  margin: 10px auto;
+  background-color: #ffffff;
+  justify-content: space-evenly;
+}
+
+.grey-button button {
+  padding: 20px 80px;
+  border: none;
+  background-color: black;
+  font-weight: 700;
+}
+
+.grey-button button:hover {
+  background-color: orange;
+}
+
+.grey-button button a {
+  color: white;
+}
+
+.grey-button button a:hover {
+  color: black;
+}
+
+/*style for contact page */
+
+.contact-section {
+  padding: 20px 0;
+  display: flex;
+  max-width: 80%;
+  margin: 10px auto;
+  background-color: #ffffff;
+  justify-content: space-evenly;
+  height: 100vh;
+}
+
+.contact-form {
+  padding-top: 6rem;
+}
+
+.contact-form h2 {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.contact-form label {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.contact-form input {
+  width: 100%;
+  height: 45px;
+}
+
+.contact-form .input-name,
+.input-email {
+  border: none;
+  background-color: #f1f1f1;
+}
+
+.contact-form textarea {
+  width: 100%;
+  height: 115px;
+}
+
+.contact-form .input-button {
+  padding: auto 80px;
+  border: none;
+  background-color: black;
+  font-weight: 700;
+  color: white;
+  height: 40px;
+}
+
+/* styling for register */
+
+.register-section {
+  padding: 0 400px;
+  display: flex;
+  flex-direction: column;
+  max-width: 80%;
+  margin: 10px auto;
+  background-color: #ffffff;
+  justify-content: center;
+  height: auto;
+}
+
+.register-form {
+  padding-top: 3rem;
+}
+
+.register-form input {
+  width: 100%;
+  height: 40px;
+  margin-bottom: 10px;
+  border: none;
+  background-color: #f1f1f1;
+}
+
+.register-from select {
+  width: 100%;
+  height: 45px;
+}
+
+.register-form h2 {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  margin-bottom: 20px;
+}
+
+.register-form label {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.register-section .register-button {
+  padding: auto 80px;
+  border: none;
+  background-color: black;
+  font-weight: 700;
+  color: white;
+  height: 40px;
+}
+
+/* styling for login */
+.login-section {
+  padding: 0 400px;
+  display: flex;
+  flex-direction: column;
+  max-width: 80%;
+  margin: 10px auto;
+  background-color: #ffffff;
+  justify-content: center;
+  height: 100vh;
+}
+
+.login-form {
+  padding-top: 3rem;
+}
+
+.login-form h2 {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.login-form label {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.login-form input {
+  width: 100%;
+  height: 45px;
+}
+
+.login-form .input-email,
+.input-password {
+  border: none;
+  background-color: #f1f1f1;
+}
+
+.login-section .input-button {
+  padding: auto 80px;
+  border: none;
+  background-color: black;
+  font-weight: 700;
+  color: white;
+  height: 40px;
+  text-align: center;
+}
